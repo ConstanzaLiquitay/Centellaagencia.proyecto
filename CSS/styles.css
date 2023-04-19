@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.logocentella {
+    width: 200px;
+    height: 200px;
+
+}
+@media(max-width:480px){
+
+    .logocentella{
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+/* ---------header-------- */
+
+.imagendeportada{
+    width: 100vw;
+    height: 100vw;
+}
+header {
+    width: 100vw;
+    background-color: rgb(229, 202, 255);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+    background-color: rgb(219, 219, 95);
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+@media(max-width:480px){
+    header{
+        width: 100vw;
+    }
+    .imagendeportada{
+        width: 100vw;
+        height: 100vw;
+    }
+
+   .barradenavegacion{
+        display: none;
+    }
+
+}
+
+
+.nav-list{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+
+/* --------imagendeportada------- */
+
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    margin-left: 700px;
+    margin-top: 1px;
+
+}
+
+.rayoamarillo {
+    width: 100px;
+    height: 100px;
+}
+
+.frase {
+    background-color: #e1b4ff;
+    padding: 20px;
+
+}
+
+@media(max-width:480px){
+    .frase{
+        background-color: rgba(0, 0, 0, 0);
+padding: 0px;
+    }
+
+    }
+
+
+.parrafo {
+    font-size: 30px;
+    margin-left: 700px;
+    margin-top: 1px;
+}
+
+
+.seccionservicios {
+    height: 100vh;
+    margin: 20px;
+
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em
+}
+
+@media(max-width:480px){
+
+    .seccionservicios{
+        display: inline;
+
+    }
+
+}
+    
+
+
+
+.servconsultoria {
+    grid-column: 2/3;
+    background-color: rgb(255, 191, 191);
+    font-size: 35px;
+    padding: 1em;
+    margin: 20px;
+}
+
+
+.servbranding {
+    background-color: rgb(255, 191, 191);
+    font-size: 35px;
+    padding: 1em;
+    margin: 20px;
+}
+
+.servmedia {
+    background-color: rgb(255, 191, 191);
+    font-size: 35px;
+    padding: 1em;
+    margin: 20px;
+
+}
+
+.servecommerce {
+    background-color: rgb(255, 191, 191);
+    font-size: 35px;
+    padding: 1em;
+    margin: 20px;
+}
+
+.servpubli {
+    background-color: rgb(255, 191, 191);
+    font-size: 35px;
+    padding: 1em;
+    margin: 20px;
+}
+
+article {
+    font-size: 50px;
+    background-color: #e1b4ff;
+    margin: 100px;
+    padding: 20px;
+}
+
+@media(max-width:480px){
+    article{
+        font-size: 20px;
+        background-color: #fff04f;
+        margin: 20px;
+        padding: 50px;
+
+
+    }
+}
+
+figure h2 {
+    font-size: 50px;
+    margin: 30px;
+}
+
+@media(max-width:480px){
+    .videoquilmes{
+        width: 400px;
+        height: 400px;
+    }
+
+    .videomusimundo{
+        display: none;
+    }
+
+    figure h2{
+        color: black;
+        font-size: 2rem;
+        margin: 0px;
+        padding: 30px;
+    }
+    }
+
+
+
+.parteners {
+    background-color: rgb(169, 169, 169);
+}
+
+
+ul li {
+
+    font-size: 30px;
+    display: flex;
+    align-items: baseline;
+}
+.tituloparteners {
+    font-size: 40px;
+    color: darksalmon;
+    margin: 20px;
+}
+
+figure img {
+    width: 400px;
+}
+
+@media(max-width:480px){
+    .parteners{
+        background-color: white;
+        margin: 20px;
+    }
+    .tituloparteners{
+        color: black;
+        font-size: 3rem;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    ul li{
+        display: none;
+    }
+
+    
+.logosparteners{
+    display: grid;
+    grid-template-rows: repeat(2, minmax(250px,20vw));
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+figure img{
+    width: 100%;
+height: 100%;
+}
+
+
+}
+
+
+footer {
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.contactofooter {
+    font-size: 20px;
+}
+
+.redes {
+    font-size: 20px;
+}
+
+
+/* -------servicios-------- */
+.titulo-servicios {
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+    padding: 20px;
+
+}
+
+
+/* -------Team ------- */
+h1 {
+    font-size: 2rem;
+}
+
+@media(max-width:480px){
+    h1{
+        font-size: 1rem;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .equipo{
+        padding: 5px;
+    }
+
+    .imgperfil-team{
+        width: 20px;
+        height: 20px;
+
+    }
+
+    h3{
+        font-size: 0.5rem;
+width: 60px;
+height: 30px;
+    }
+    .descripcion-team{
+        font-size: 0.3rem;
+        width: 100px;
+        height: 50px;
+    }
+}
+
+.equipo {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+
+
+.juan {
+    display: grid;
+    grid-column: 1;
+}
+
+.imagendelequipodetrabajo {
+    text-align: center;
+}
+
+.todoelequipo {
+    width: 600px;
+}
+
+@media(max-width:480px){
+    .todoelequipo{display: none;
+    }
+.piedeimagen{
+    display: none;
+} 
+}
+
+
+.piedeimagen {
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+/* -------Parteners------ */
+
+/* ------Blog------- */
+
+.titulosectionblog {
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.seccionblog {
+    background-color: #debaff;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: repeat(2, 1fr)
+}
+
+.articuloblog {
+    margin: 0px;
+    font-size: 20px;
+    width: 900px;
+    height: 300px;
+}
+
+.imgmundodigital {
+    width: 80px;
+    height: 80px;
+    justify-self: center;
+
+}
+
+.imgtendencias {
+    width: 80px;
+    height: 80px;
+}
+
+.imgcopy {
+    width: 80px;
+    height: 80px;
+}
+
+.imgcommunity {
+    width: 80px;
+    height: 80px;
+}
+
+.imgfinanzas {
+    width: 80px;
+    height: 80px;
+}
+
+.imgecommerce {
+    width: 80px;
+    height: 80px;
+}
+
+/*------footer formato mobile-----*/
+
+@media(max-width:480px){    
+    footer{
+    font-size: 2rem;
+display: flex;
+}
+
+}

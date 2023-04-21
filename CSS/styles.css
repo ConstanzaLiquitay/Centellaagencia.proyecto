@@ -114,6 +114,34 @@ h1 {
     
     }
 
+}
+
+
+    .parrafo {
+        font-size: 30px;
+        margin-left: 700px;
+        margin-top: 1px;
+    }
+
+
+    .seccionservicios {
+        height: 100vh;
+        margin: 20px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1em
+    }
+
+    @media(max-width:480px) {
+
+        .seccionservicios {
+            display: inline;
+
+        }
+
+
     .frase h2{
         margin: 0px;
     }

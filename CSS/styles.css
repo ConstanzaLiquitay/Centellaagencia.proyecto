@@ -111,69 +111,11 @@ h1 {
         padding: 5px;
         width: 100vw;
         height: 400px;
-
+    
     }
 
-}
-
-
-    .parrafo {
-        font-size: 30px;
-        margin-left: 700px;
-        margin-top: 1px;
-    }
-
-
-    .seccionservicios {
-        height: 100vh;
-        margin: 20px;
-
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 1em
-    }
-
-    @media(max-width:480px) {
-
-        .seccionservicios {
-            display: inline;
-
-        }
-
-
-        .frase h2{
-            display: inline;
-            text-align: center;
-            font-size: 1rem,
-            margin: 20px;
-        }
-    }
-
-
-
-    .servconsultoria {
-        grid-column: 2/3;
-        background-color: rgb(255, 191, 191);
-        font-size: 35px;
-        padding: 1em;
-        margin: 20px;
-    }
-
-
-    .servbranding {
-        background-color: rgb(255, 191, 191);
-        font-size: 35px;
-        padding: 1em;
-        margin: 20px;
-    }
-
-    .servmedia {
-        background-color: rgb(255, 191, 191);
-        font-size: 35px;
-        padding: 1em;
-        margin: 20px;
-
+    .frase h2{
+        margin: 0px;
     }
 
     .servecommerce {
@@ -188,7 +130,7 @@ h1 {
         font-size: 35px;
         padding: 1em;
         margin: 20px;
-    }
+}
 
     article {
         font-size: 50px;
@@ -307,6 +249,10 @@ h1 {
 
 
     /* -------servicios-------- */
+
+
+
+    
     .titulo-servicios {
         color: rgb(0, 0, 0);
         padding: 30px;
@@ -324,6 +270,43 @@ h1 {
         padding: 20px;
 
     }
+
+    .seccionservicios{
+        width: 100vw;
+        height: 400px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 10px;
+    
+    }
+
+    .servicios{
+        background-color: #fff04f;
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+  /* -------Artuculo contando quienes somos ------- */
+.articuloindex{
+    width: 900px;
+    height: 500px;
+    margin: 90px;
+    padding: 30px;
+    background-color: #e1b4ff;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.parrafoindex{
+    font-size: 3rem;
+  
+}
 
 
     /* -------Team ------- */

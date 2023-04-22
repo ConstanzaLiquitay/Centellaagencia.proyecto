@@ -77,6 +77,7 @@ h1 {
     color: rgb(0, 0, 0);
     margin-left: 700px;
     margin-top: 1px;
+    
 
 }
 
@@ -95,99 +96,129 @@ h1 {
     margin-left: 700px;
     margin-top: 1px;
 }
-article {
-    font-size: 50px;
-    background-color: #e1b4ff;
-    margin: 100px;
-    padding: 20px;
-}
 
-figure h2 {
-    font-size: 50px;
-    margin: 30px;
-}
 
 
 @media(max-width:480px) {
     .frase {
         background-color: rgba(0, 0, 0, 0);
-        padding: 5px;
+        padding: 0px;
         width: 100vw;
         height: 400px;
 
     }
-    article {
-        font-size: 20px;
-        background-color: #fff04f;
-        margin: 20px;
-        padding: 50px;
-
-
+    .parrafo{
+            margin: 0px;
+            font-size: 20px;
+    }
 }
+
 
 /* ------ main servicios------ */
 
-
 .seccionservicios{
-    height: 100vh;
-    margin: 20px;
-background-color: #9100f2;
+    height: 800px;
+    width: 100vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 1em
+    gap: 1em;
 }
 
 .servicios{
-    width: 100vw;
-    height: 200px;
-    margin: 10px;
+    width: 500px;
+    height: 100px;
+    margin: 50px;
     padding: 5px;
     font-size: 2rem;
     gap: 50px;
     color: black;
     text-align: center;
+    background-color: #fff04f;
+
 }
 
 @media(max-width:480px) {
     .seccionservicios {
-        width: 100vw;
-        height: 700px;
-        margin: 5px;
-        padding: 10px;
         display: inline;
-
+        height: 100px;
+        width: 50px;
+        margin: 0px;
+        padding: 0px;
+        gap: 0px;
     }
 
-  
+    .servicios{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        margin-left: 100px;
+        padding: 5px;
+        font-size: 1rem;
+        gap: 10px;
+        color: black;
+        text-align: center;
+        background-color: #fff04f;
+}
 }
 
-.frase h2 {
-    margin: 0px;
+/* --------main article parrafo ------ */
+.articuloindex {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e1b4ff;
+    display: flex;
+    align-items: center;
+
+}
+
+.parrafoindex {
+    font-size: 2rem;
+}
+
+@media(max-width:480px){
+    .articuloindex {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #e1b4ff;
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .parrafoindex {
+        font-size: 1rem;
+    }
+    
 }
 
 
+/* -------main partener video------ */
+.titulo-clientes{
+    font-size: 2rem;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
 
+figure .videoquilmes{
+    height: 100vw;
+    width: 100vw;
+}
 
-
-
-
-
-
-
-
+figure .videoquilmes{
+    height: 100vw;
+    width: 100vw;
+}
 
 
 
 @media(max-width:480px) {
-    .videoquilmes {
-        width: 400px;
-        height: 400px;
-    }
-
-    .videomusimundo {
-        display: none;
-    }
 
     figure h2 {
         color: black;
@@ -196,13 +227,14 @@ background-color: #9100f2;
         padding: 30px;
     }
 }
+/* main section parteners */
 
-
-
-.parteners {
-    background-color: rgb(169, 169, 169);
+.tituloparteners {
+    font-size: 3rem;
+    margin: 20px;
+    display: flex;
+    align-items: center;
 }
-
 
 ul li {
 
@@ -211,11 +243,7 @@ ul li {
     align-items: baseline;
 }
 
-.tituloparteners {
-    font-size: 40px;
-    color: darksalmon;
-    margin: 20px;
-}
+
 
 figure img {
     width: 400px;
@@ -227,7 +255,7 @@ figure img {
         margin: 20px;
     }
 
-    .tituloparteners {
+    .titulo-parteners {
         color: black;
         font-size: 3rem;
         margin: 0px;
@@ -255,50 +283,33 @@ figure img {
 }
 
 
+/* -----footer------ */
+
 footer {
     background-color: blueviolet;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     padding: 20px;
 }
 
-.contactofooter {
-    font-size: 20px;
+form h2{
+font-size: 2rem;
 }
 
 .redes {
     font-size: 20px;
 }
 
-
-/* -------servicios-------- */
-
-
-
-/* -------Artuculo contando quienes somos ------- */
-.articuloindex {
-    width: 100px;
-    height: 500px;
-    margin: 20px;
-    padding: 20px;
-    background-color: #e1b4ff;
-    display: flex;
-    align-items: center;
-
+@media(max-width:480px) {
+    footer {
+        font-size: 2rem;
+        display: flex;
+    }
 
 }
-
-.parrafoindex {
-    font-size: 2rem;
-
-}
-
 
 /* -------Team ------- */
-h1 {
-    font-size: 2rem;
-}
 
 @media(max-width:480px) {
     h1 {
@@ -429,23 +440,4 @@ h1 {
     height: 80px;
 }
 
-/*------footer formato mobile-----*/
 
-@media(max-width:480px) {
-    footer {
-        font-size: 2rem;
-        display: flex;
-    }
-
-}
-
-
-.videoquilmes{
-    width: 100%;
-    height: 100vw;
-}
-
-.videomusimundo{
-    width: 100%;
-    height: 100vw;
-}

@@ -199,6 +199,7 @@ h1 {
 
 
 /* -------main partener video------ */
+
 .titulo-clientes{
     font-size: 2rem;
     margin: 20px;
@@ -211,7 +212,7 @@ figure .videoquilmes{
     width: 100vw;
 }
 
-figure .videoquilmes{
+figure .videomusimundo{
     height: 100vw;
     width: 100vw;
 }
@@ -226,6 +227,7 @@ figure .videoquilmes{
         margin: 0px;
         padding: 30px;
     }
+
 }
 /* main section parteners */
 
@@ -306,6 +308,73 @@ font-size: 2rem;
         font-size: 2rem;
         display: flex;
     }
+
+}
+
+
+
+/* ------ Seccion Servicios------ */
+
+.tituloseccionservicios{
+    font-size: 3rem;
+    margin: 20px;
+    padding: 10px;
+    }
+
+.parrafoservicios{
+        font-size: 2rem;
+        margin: 20px;
+        padding: 10px;
+    }
+
+.list-servicios{
+    font-size: 2rem;
+}
+
+
+.titulodelervicio{
+    height: 60px;
+    display:inline;
+    font-size: 2rem;
+background-color:#fff04f ;
+margin: 20px;
+padding: 10px;
+}
+
+
+.listadoservicios{
+
+    height: 250px;
+    display: flex;
+}
+
+.detalleservicios{
+    display: inline;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+
+@media(max-width:480px){
+
+.tituloseccionservicios{
+    font-size: 2rem;
+}
+.parrafoservicios{
+    font-size: 1rem;
+    margin: 10px;
+    padding: 10px;
+}
+
+.titulodelervicio{
+    height: 60px;
+    display:flex;
+    font-size: 2rem;
+background-color:#fff04f ;
+margin: 20px;
+padding: 10px;
+
+}
 
 }
 

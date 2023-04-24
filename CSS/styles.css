@@ -39,6 +39,7 @@ header {
     height: 200px;
 
 }
+
 .imagendeportada {
     width: 100vw;
     height: 100vw;
@@ -53,10 +54,11 @@ header {
         width: 100px;
         height: 100px;
     }
+
     header {
         width: 100vw;
     }
-    
+
     .imagendeportada {
         width: 100vw;
         height: 100vw;
@@ -77,7 +79,7 @@ h1 {
     color: rgb(0, 0, 0);
     margin-left: 700px;
     margin-top: 1px;
-    
+
 
 }
 
@@ -91,6 +93,7 @@ h1 {
     padding: 20px;
 
 }
+
 .parrafo {
     font-size: 30px;
     margin-left: 700px;
@@ -107,16 +110,17 @@ h1 {
         height: 400px;
 
     }
-    .parrafo{
-            margin: 0px;
-            font-size: 20px;
+
+    .parrafo {
+        margin: 0px;
+        font-size: 20px;
     }
 }
 
 
 /* ------ main servicios------ */
 
-.seccionservicios{
+.seccionservicios {
     height: 800px;
     width: 100vw;
     display: grid;
@@ -125,7 +129,7 @@ h1 {
     gap: 1em;
 }
 
-.servicios{
+.servicios {
     width: 500px;
     height: 100px;
     margin: 50px;
@@ -148,7 +152,7 @@ h1 {
         gap: 0px;
     }
 
-    .servicios{
+    .servicios {
         width: 200px;
         height: 50px;
         margin: 10px;
@@ -159,7 +163,7 @@ h1 {
         color: black;
         text-align: center;
         background-color: #fff04f;
-}
+    }
 }
 
 /* --------main article parrafo ------ */
@@ -178,7 +182,7 @@ h1 {
     font-size: 2rem;
 }
 
-@media(max-width:480px){
+@media(max-width:480px) {
     .articuloindex {
         width: 300px;
         height: 200px;
@@ -188,31 +192,31 @@ h1 {
         background-color: #e1b4ff;
         display: flex;
         align-items: center;
-    
+
     }
 
     .parrafoindex {
         font-size: 1rem;
     }
-    
+
 }
 
 
 /* -------main partener video------ */
 
-.titulo-clientes{
+.titulo-clientes {
     font-size: 2rem;
     margin: 20px;
     display: flex;
     align-items: center;
 }
 
-figure .videoquilmes{
+figure .videoquilmes {
     height: 100vw;
     width: 100vw;
 }
 
-figure .videomusimundo{
+figure .videomusimundo {
     height: 100vw;
     width: 100vw;
 }
@@ -229,6 +233,7 @@ figure .videomusimundo{
     }
 
 }
+
 /* main section parteners */
 
 .tituloparteners {
@@ -295,8 +300,8 @@ footer {
     padding: 20px;
 }
 
-form h2{
-font-size: 2rem;
+form h2 {
+    font-size: 2rem;
 }
 
 .redes {
@@ -319,62 +324,78 @@ font-size: 2rem;
     font-size: 3rem;
     margin: 20px;
     padding: 10px;
-    }
+}
 
 .parrafoservicios{
-        font-size: 2rem;
-        margin: 20px;
-        padding: 10px;
-    }
+    font-size: 2rem;
+    margin: 20px;
+    padding: 10px;
+}
 
-.list-servicios{
+.list-servicios {
     font-size: 2rem;
 }
 
 
-.titulodelervicio{
+.titulodelservicio{
     height: 60px;
-    display:inline;
+    display: inline;
+    align-items: center;
     font-size: 2rem;
-background-color:#fff04f ;
-margin: 20px;
-padding: 10px;
+    background-color:#fff04f;
+    margin: 20px;
+    padding: 10px;
 }
 
 
-.listadoservicios{
+.listadoservicios {
 
     height: 250px;
     display: flex;
 }
 
 .detalleservicios{
-    display: inline;
+    display: flex;
     font-size: 2rem;
     margin-left: 20px;
 }
 
 
-@media(max-width:480px){
+@media(max-width:480px) {
 
-.tituloseccionservicios{
-    font-size: 2rem;
-}
-.parrafoservicios{
-    font-size: 1rem;
-    margin: 10px;
-    padding: 10px;
-}
+    .tituloseccionservicios{
+        font-size: 1rem;
+        margin: 10px;
+    padding: 0px;    }
 
-.titulodelervicio{
-    height: 60px;
-    display:flex;
-    font-size: 2rem;
-background-color:#fff04f ;
-margin: 20px;
-padding: 10px;
+    .parrafoservicios{
+        font-size: 1rem;
+        margin: 10px;
+        padding: 10px;
+    }
 
-}
+    .titulodelservicio{
+        height: 60px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        background-color: #fff04f;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .listadoservicios {
+        width: 100vw;
+        height: 20px;
+        display: inline;
+        font-size: 2rem;
+    }
+
+    .detalleservicios{
+        font-size: 1rem;
+        margin-left: 100px;
+    }
 
 }
 
@@ -508,5 +529,3 @@ padding: 10px;
     width: 80px;
     height: 80px;
 }
-
-

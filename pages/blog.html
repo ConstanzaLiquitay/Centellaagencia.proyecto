@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,65 +18,69 @@
 
 
 <body>
-    
-    <header class="heder">
-        <img class="logocentella" src="../Img/logocentella.png" alt="logocentella">
 
+    <header class="header">
+        <div class="logocentella">
+            <img class="logocentella" src="./Img/logocentella.png" alt="logocentella">
+        </div>
 
 
         <nav>
             <ul class="nav-list">
                 <li class="barradenavegacion">Inicio</li>
-                <li><a class="barradenavegacion" href="./servicios.html" target="_blank">Servicios</a></li>
-                <li><a class="barradenavegacion" href="./team.html" target="_blank">Team</a></li>
-                <li><a class="barradenavegacion" href="./clientes.html" target="_blank">Parteners</a></li>
-                <li><a class="barradenavegacion" href="./blog.html" target="_blank">Blog</a></li>
+                <li><a class="barradenavegacion" href="./pages/servicios.html" target="_blank">Servicios</a></li>
+                <li> <a class="barradenavegacion" href="./pages/team.html" target="_blank">Team</a></li>
+                <li><a class="barradenavegacion" href=".//pages/clientes.html" target="_blank">Parteners</a></li>
+                <li><a class="barradenavegacion" href="./pages/blog.html" target="_blank">Blog</a></li>
             </ul>
         </nav>
 
     </header>
 
+
     <main>
         <h1 class="titulosectionblog">NUESTRO BLOG</h1>
 
 
-        <section class="seccionblog">
+        <section class="seccionblog container">
+            <div class="row">
+                <article class=" col-4">
+                    <img class="imgmundodigital " src="../Img/blog.jpg" alt="imagendelblog">
+                    <h2>Como emepezar en el mundo digital</h2>
+                    <p>Lorem ipsum dolor sit am minus aliquid distinctio rem</p>
+                </article>
 
-            <article class="articuloblog">
-                <img class="imgmundodigital" src="../Img/blog.jpg" alt="imagendelblog">
-                <h2>Como emepezar en el mundo digital</h2>
-                <p>Lorem ipsum dolor sit am minus aliquid distinctio rem</p>
-            </article>
+                <article class="col-4">
+                    <img class="imgtendencias" src="../Img/tendencias.png" alt="tendenciasenrrss">
+                    <h2>Tendencias en instagram este 2023</h2>
+                    <p>L quasi qui consequatur error sed ero doloremque tempora exercitationem.</p>
+                </article>
 
-            <article class="articuloblog">
-                <img class="imgtendencias" src="../Img/tendencias.png" alt="tendenciasenrrss">
-                <h2>Tendencias en instagram este 2023</h2>
-                <p>L quasi qui consequatur error sed ero doloremque tempora exercitationem.</p>
-            </article>
+                <article class="col-4 ">
+                    <img class="imgcopy" src="../Img/copy.jpg" alt="coyenrrss">
+                    <h2>Escribir un copy y no morir en el interno</h2>
+                    <p>Lorem it voluptatem debitis esss tempora blanditiis, est deserunt dolorum.</p>
+                </article>
 
-            <article class="articuloblog">
-                <img class="imgcopy" src="../Img/copy.jpg" alt="coyenrrss">
-                <h2>Escribir un copy y no morir en el interno</h2>
-                <p>Lorem it voluptatem debitis esss tempora blanditiis, est deserunt dolorum.</p>
-            </article>
+                <article class="col-4 ">
+                    <img class="imgcommunity" src="../Img/communitymanager-rrss.webp" alt="communitymanager">
+                    <h2>¿Que hace un community manager?</h2>
+                    <p>Lon a reprehenderit corporis, ullam repudiandae voluptatum libero tenetur illum incidunt quae
+                        voluptates mollitia!</p>
+                </article>
 
-            <article class="articuloblog">
-                <img class="imgcommunity" src="../Img/communitymanager-rrss.webp" alt="communitymanager">
-                <h2>¿Que hace un community manager?</h2>
-                <p>Lon a reprehenderit corporis, ullam repudiandae voluptatum libero tenetur illum incidunt quae voluptates mollitia!</p> 
-            </article>
+                <article class="col-4">
+                    <img class="imgfinanzas" src="../Img/finanzas.jpeg" alt="imagenfinanzas">
+                    <h2>Lleva las finanzas de tu empresa de forma correcta</h2>
+                    <p>Lorapiente tenetur dolore qui orem.</p>
+                </article>
 
-            <article class="articuloblog">
-                <img class="imgfinanzas" src="../Img/finanzas.jpeg" alt="imagenfinanzas">
-                <h2>Lleva las finanzas de tu empresa de forma correcta</h2>
-                <p>Lorapiente tenetur dolore qui orem.</p>
-            </article>
-
-            <article class="articuloblog">
-                <img class="imgecommerce" src="../Img/e-commerce.webp" alt="imagenecommerce">
-                <h2>Primeros pasos en mercado libre</h2>
-                <p>Lorem ipsum, nsequ cum eaque, nisi, porro impedit explicabo asperiores?</p>
-            </article>
+                <article class="col-4 ">
+                    <img class="imgecommerce" src="../Img/e-commerce.webp" alt="imagenecommerce">
+                    <h2>Primeros pasos en mercado libre</h2>
+                    <p>Lorem ipsum, nsequ cum eaque, nisi, porro impedit explicabo asperiores?</p>
+                </article>
+            </div>
         </section>
     </main>
 
@@ -124,5 +131,9 @@
 
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

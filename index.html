@@ -16,25 +16,37 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="logocentella">
-            <img class="logocentella" src="./Img/logocentella.png" alt="logocentella">
-        </div>
+    <header>
 
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid bg">
+          <a class="navbar-brand" href="#"> <img class="logocentella" src="./Imag/logocentella.png" alt=""></a>
 
-        <nav>
-            <ul class="nav-list">
-                <li class="barradenavegacion">Inicio</li>
-                <li><a class="barradenavegacion" href="./pages/servicios.html" target="_blank">Servicios</a></li>
-                <li> <a class="barradenavegacion" href="./pages/team.html" target="_blank">Team</a></li>
-                <li><a class="barradenavegacion" href=".//pages/clientes.html" target="_blank">Parteners</a></li>
-                <li><a class="barradenavegacion" href="./pages/blog.html" target="_blank">Blog</a></li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
             </ul>
-        </nav>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
     </header>
-
-
     <main>
         <img class="imagendeportada" src="./Img/imgportada.jpg" alt="imagenportada">
 

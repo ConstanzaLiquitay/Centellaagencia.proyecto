@@ -19,23 +19,37 @@
 
 <body>
 
-    <header class="header">
-        <div class="logocentella">
-            <img class="logocentella" src="./Img/logocentella.png" alt="logocentella">
-        </div>
-
-
-        <nav>
-            <ul class="nav-list">
-                <li class="barradenavegacion">Inicio</li>
-                <li><a class="barradenavegacion" href="./pages/servicios.html" target="_blank">Servicios</a></li>
-                <li> <a class="barradenavegacion" href="./pages/team.html" target="_blank">Team</a></li>
-                <li><a class="barradenavegacion" href=".//pages/clientes.html" target="_blank">Parteners</a></li>
-                <li><a class="barradenavegacion" href="./pages/blog.html" target="_blank">Blog</a></li>
+    <header class="navbar navbar-expand-sm bg">
+        <div class="container">
+           <a class="navbar-brand" href="#"><img class="logocentella" src="../Imag/logocentella.png" alt="logocentella"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/clientes.html">Parteners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
             </ul>
-        </nav>
-
-    </header>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
+      </header>
 
 
     <main>
@@ -45,38 +59,38 @@
         <section class="seccionblog container">
             <div class="row">
                 <article class=" col-6 col-lg-4">
-                    <img class="imgmundodigital " src="../Img/blog.jpg" alt="imagendelblog">
+                    <img class="imgblog " src="../Img/blog.jpg" alt="imagendelblog">
                     <h2>Como emepezar en el mundo digital</h2>
                     <p>Lorem ipsum dolor sit am minus aliquid distinctio rem</p>
                 </article>
 
                 <article class="col-6 col-lg-4">
-                    <img class="imgtendencias" src="../Img/tendencias.png" alt="tendenciasenrrss">
+                    <img class="imgblog" src="../Img/tendencias.png" alt="tendenciasenrrss">
                     <h2>Tendencias en instagram este 2023</h2>
                     <p>L quasi qui consequatur error sed ero doloremque tempora exercitationem.</p>
                 </article>
 
                 <article class="col-6 col-lg-4">
-                    <img class="imgcopy" src="../Img/copy.jpg" alt="coyenrrss">
+                    <img class="imgblog" src="../Img/copy.jpg" alt="coyenrrss">
                     <h2>Escribir un copy y no morir en el interno</h2>
                     <p>Lorem it voluptatem debitis esss tempora blanditiis, est deserunt dolorum.</p>
                 </article>
 
                 <article class="col-6 col-lg-4">
-                    <img class="imgcommunity" src="../Img/communitymanager-rrss.webp" alt="communitymanager">
+                    <img class="imgblog" src="../Img/communitymanager-rrss.webp" alt="communitymanager">
                     <h2>¿Que hace un community manager?</h2>
                     <p>Lon a reprehenderit corporis, ullam repudiandae voluptatum libero tenetur illum incidunt quae
                         voluptates mollitia!</p>
                 </article>
 
                 <article class="col-6  col-lg-4">
-                    <img class="imgfinanzas" src="../Img/finanzas.jpeg" alt="imagenfinanzas">
+                    <img class="imgblog" src="../Img/finanzas.jpeg" alt="imagenfinanzas">
                     <h2>Lleva las finanzas de tu empresa de forma correcta</h2>
                     <p>Lorapiente tenetur dolore qui orem.</p>
                 </article>
 
                 <article class="col-6  col-lg-4 ">
-                    <img class="imgecommerce" src="../Img/e-commerce.webp" alt="imagenecommerce">
+                    <img class="imgblog" src="../Img/e-commerce.webp" alt="imagenecommerce">
                     <h2>Primeros pasos en mercado libre</h2>
                     <p>Lorem ipsum, nsequ cum eaque, nisi, porro impedit explicabo asperiores?</p>
                 </article>
@@ -131,9 +145,7 @@
 
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>

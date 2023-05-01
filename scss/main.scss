@@ -22,6 +22,38 @@ li {
     height: 100vw;
 }
 
+header {
+    width: 100vw;
+    background-color: rgb(229, 202, 255);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+    background-color: rgb(219, 219, 95);
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.bg{
+    background-color: #e1b4ff;
+}
+.logocentella {
+    width: 200px;
+    height: 200px;
+
+}
+
+.imagendeportada {
+    width: 100vw;
+    height: 100vw;
+}
+
 //index main seccion frase//
 
 .frase{
@@ -200,5 +232,23 @@ footer{
 }
 
 //Blog//
+.titulosectionblog{
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgblog{
+    width: 80px;
+    height: 80px;
+}
 
 
+//Clientes//
+
+.tituloclientes{
+    font-size: 1rem;
+    
+}

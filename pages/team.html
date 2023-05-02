@@ -16,22 +16,40 @@
 </head>
 
 <body>
-    <header class="header">
-        <img class="logocentella" src="../Img/logocentella.png" alt="logocentella">
-
-
-        <nav>
-            <ul class="nav-list">
-                <li class="barradenavegacion">Inicio</li>
-                <li><a class="barradenavegacion" href="./pages/servicios.html" target="_blank">Servicios</a></li>
-                <li><a class="barradenavegacion" href="./pages/team.html" target="_blank">Team</a></li>
-                <li><a class="barradenavegacion" href="./pages/clientes.html" target="_blank">Parteners</a></li>
-                <li><a class="barradenavegacion" href="./blog.html" target="_blank">Blog</a></li>
-            </ul>
-        </nav>
-
+    <header class="navbar navbar-expand-sm bg">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="logocentella" src="../Imag/logocentella.png"
+                    alt="logocentella"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./clientes.html">Parteners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
     </header>
-
 
     <main>
 

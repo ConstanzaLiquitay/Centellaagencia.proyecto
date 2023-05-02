@@ -1,0 +1,104 @@
+//---------main--------//
+.imagendeportada {
+    width: 100vw;
+    height: 100vw;
+}
+
+
+
+.imagendeportada {
+    width: 100vw;
+    height: 100vw;
+}
+.frase{
+    background-color:$color-principal;
+    padding: 20px;
+    .rayoamarillo {
+        width: 100px;
+        height: 100px;
+
+    }
+    & h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 70px;
+        color: rgb(0, 0, 0);
+        margin-left: 700px;
+        margin-top: 1px;
+    }
+    & .parrafo{
+        font-size: 30px;
+        margin-left: 700px;
+        margin-top: 1px;
+    }
+}
+
+//index main seccion servicios//
+.seccionservicios{
+    height: 800px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+    .servicios{
+        width: 500px;
+        height: 100px;
+        margin: 50px;
+        padding: 5px;
+        font-size: 2rem;
+        gap: 50px;
+        color: black;
+        text-align: center;
+        background-color: #fff04f;
+    }
+}
+
+//index main seccion article//
+.articuloindex{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: $color-principal;
+    display: flex;
+    align-items: center;
+    .parrafoindex {
+        font-size: 2rem;
+    }
+}
+//index main seccion parteners videos//
+.titulo-clientes{
+    font-size: 2rem;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}  
+
+figure{
+    .videoclientes {
+        height: 100vw;
+        width: 100vw;
+    }
+}
+//index main seccion parteners//
+.tituloparteners{
+    font-size: 3rem;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    li{
+        font-size: 30px;
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+figure{
+    img{
+        width: 400px;
+    }
+}
+

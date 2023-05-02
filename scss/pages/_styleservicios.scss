@@ -1,0 +1,33 @@
+//Servicios//
+.sectionservicios{
+    .tituloseccionservicios{
+        font-size: 3rem;
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    & .parrafoservicios{
+        font-size: 2rem;
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+.listadoservicios{
+    height: 250px;
+    display: flex;
+    .titulodelservicio{
+        height: 60px;
+        display: inline;
+        align-items: center;
+        font-size: 2rem;
+        background-color:#fff04f;
+        margin: 20px;
+        padding: 10px;
+    }
+    }
+    .detalleservicios{
+        display: flex;
+        font-size: 2rem;
+        margin-left: 20px;
+    }

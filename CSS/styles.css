@@ -164,6 +164,8 @@ header {
   color: black;
   text-align: center;
   background-color: rgb(229, 202, 255);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
   .servicios {
@@ -171,6 +173,11 @@ header {
     width: 300px;
     height: 50px;
   }
+}
+.servicios a {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .articuloindex {

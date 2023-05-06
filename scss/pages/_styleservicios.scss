@@ -1,33 +1,31 @@
 //Servicios//
-.sectionservicios{
-    .tituloseccionservicios{
-        font-size: 3rem;
-        margin: 20px;
-        padding: 10px;
-    }
-    
-    & .parrafoservicios{
-        font-size: 2rem;
-        margin: 20px;
-        padding: 10px;
+.titulo-seccionservicios {
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.containersecservicios {
+    width: 400px;
+    height: 350px;
+    background-color: $color-principal;
+    margin: 20px;
+
+    & .card {
+        display: grid;
+        margin: 10px;
+        flex-direction: row;
+        width: 200px;
+        height: 100px;
+        justify-content: center;
+        align-content: center;
+        background-color: $color-principal;
+
+        & h3 {
+            font-size: 2rem;
+        }
     }
 }
 
-.listadoservicios{
-    height: 250px;
-    display: flex;
-    .titulodelservicio{
-        height: 60px;
-        display: inline;
-        align-items: center;
-        font-size: 2rem;
-        background-color:#fff04f;
-        margin: 20px;
-        padding: 10px;
-    }
-    }
-    .detalleservicios{
-        display: flex;
-        font-size: 2rem;
-        margin-left: 20px;
-    }

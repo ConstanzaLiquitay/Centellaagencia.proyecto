@@ -1,31 +1,78 @@
 //Servicios//
 .titulo-seccionservicios {
     font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin: 20px;
     padding: 10px;
-}
+    font-family: 'Montserrat', sans-serif;
 
-.containersecservicios {
-    width: 400px;
-    height: 350px;
-    background-color: $color-principal;
-    margin: 20px;
-
-    & .card {
-        display: grid;
+    @media screen and (max-width:480px){
+        font-size: 1rem;
         margin: 10px;
-        flex-direction: row;
-        width: 200px;
-        height: 100px;
-        justify-content: center;
-        align-content: center;
-        background-color: $color-principal;
-
-        & h3 {
-            font-size: 2rem;
-        }
     }
 }
 
+.containersecservicios {
+    padding: 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    height: 600px;
+
+    @media screen and (max-width:480px){
+        display: inline;
+        height: 1000px;
+        width: 100vw;
+        padding: 10px 5px;
+        margin: 20px 20px;
+        padding: 0px;
+    }
+
+}
+
+.card {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    background-color: $color-principal;
+    font-size: 2rem;
+
+
+    @media screen and (max-width:480px){
+        font-size: 1rem;
+        width: 100vw;
+        height: 100px;
+
+    }
+
+}
+
+.listadocard ul li{
+    font-size: 2rem;
+    @media screen and (max-width:480px){
+        font-size: 1rem;
+    }
+
+}
+
+.listadocard:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.todo {
+    border: 2px solid black;
+}
+
+.todo:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.471);
+    transition: all 0, 6s;
+}
+
+.card a {
+    text-decoration: none;
+}

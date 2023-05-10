@@ -309,23 +309,29 @@ figure img {
   text-decoration: none;
 }
 
-.equipo {
+.titulo-seccionteam {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px;
   padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.equipo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  padding: 30px 10px;
+}
+.equipo .presentacionequipo {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
 }
 
-.imagendelequipodetrabajo {
-  text-align: center;
-}
-.imagendelequipodetrabajo .todoelequipo {
-  width: 600px;
-}
-.imagendelequipodetrabajo .piedeimagen {
-  margin: 20px;
-  padding: 20px;
-  font-size: 30px;
+.presentacionequipo:hover {
+  background-color: rgb(229, 202, 255);
 }
 
 /*# sourceMappingURL=styles.css.map */

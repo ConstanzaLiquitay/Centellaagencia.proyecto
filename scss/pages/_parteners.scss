@@ -1,0 +1,63 @@
+.containertituloclientes {
+    margin-top: 30vh;
+    color: blueviolet;
+
+    & .tituloclietnes {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+}
+
+
+.cardparteners {
+    & .logoclientes {
+        width: 300px;
+        height: 300px;
+    }
+
+    & .nombrecliente {
+        color: rgb(0, 0, 0);
+        font-family: $funte-principal;
+        font-size: 2rem;
+    }
+}
+
+.logoclientes {
+    width: 300px;
+    height: 300px;
+}
+
+.containersecclientes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+
+    & .cardseccionpartener {
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        margin: 30px;
+        background: linear-gradient(yellow, rgb(229, 202, 255));
+        border-radius: 100px;
+    }
+
+    & .logoclientes{
+        width: 300px;
+        height: 300px;
+        border-radius: 900px;
+    }
+
+    & .btn-parteners{
+        color: rgb(255, 255, 255);
+        background-color:black;
+        font-size: 30px;
+        padding: 10px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.676);
+    }
+}
+
+.btn-parteners:hover{
+    font-size: 35px;
+    transition: all 1s;
+}

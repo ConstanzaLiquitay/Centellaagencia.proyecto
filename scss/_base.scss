@@ -1,12 +1,12 @@
-$color-principal:rgb(229, 202, 255);
-$color-secundario: blueviolet;
-$colo-titulos: #d7da23;
 
-//font-family: 'Fjalla One', sans-serif;//
-//font-family: 'Montserrat', sans-serif;//
-//font-family: 'Roboto Slab', serif;//
+$color-principal: rgb(229, 202, 255);
+$color-secundario: #ffff00;
+$color-terciario: rgb(126, 18, 227);
 
-*{
+$funte-principal:'Montserrat', sans-serif;
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,10 +15,5 @@ $colo-titulos: #d7da23;
 
 a {
     text-decoration: none;
-}
-
-ul
-li {
-    list-style: none;
 }
 

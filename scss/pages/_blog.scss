@@ -1,0 +1,47 @@
+.conteinertituloblog {
+    margin-top: 30vh;
+    color: blueviolet;
+
+    & .titulosectionblog {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+}
+.articleblog{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    
+    & .imgblog{
+        width: 100%;
+    }
+
+    & .tituloarticuloblog{
+        display: block;
+        color: rgb(0, 0, 0);
+        font-family: $funte-principal;
+        font-size: 2rem;
+    }
+
+  & .parrafoblog{
+    color: rgb(187, 187, 187);
+  }
+}
+
+.containerblog{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width:480px){
+    .containerblog{
+        display: block;
+    }
+}
+
+.tituloarticuloblog:hover{
+    color: $color-principal;
+}

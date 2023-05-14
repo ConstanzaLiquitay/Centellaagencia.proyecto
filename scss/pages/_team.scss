@@ -13,6 +13,12 @@
     border-radius: 100px;
     padding-top: 10px;
 }
+@media screen and (max-width:480px){
+    .imgperfil-team {
+        width: 100px;
+        padding-top: 5px;
+    }
+}
 
 .containercard {
     display: grid;
@@ -29,9 +35,20 @@
     }
 }
 
+
+@media screen and (max-width:480px) {
+    .containercard{
+        display: block;
+    }
+
+    .containercard .card{
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 .descripcion-team {
     font-family: 'Montserrat', sans-serif;
-    ;
 }
 
 .containerimgequipo {
@@ -60,6 +77,27 @@
     & .piedeimagen {
         color: white;
         font-size: 1.5rem;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .containerimgequipo{
+        background-color:rgb(255, 255, 255);
+        display: flex;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 50px;
+        width: 300px;
+    }
+    .imagendelequipodetrabajo .todoelequipo {
+        width: 100vw;
+        height: 300px;
+    }
+    .imagendelequipodetrabajo .piedeimagen {
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
         padding: 10px;
     }
 }

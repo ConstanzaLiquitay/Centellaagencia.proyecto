@@ -18,6 +18,7 @@ main {
     align-self: center;
   }
 
+
   & .parrafo1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
@@ -31,11 +32,30 @@ main {
 
 }
 
+@media screen and (max-width:480px) {
+  .fondo123 {
+    width: 100vw;
+    height: 200px;
+  }
+
+  .fondo123 .rayoamarillo {
+    width: 100px;
+    padding: 10px;
+  }
+
+  .logocentella {
+    width: 100px;
+    height: 100px;
+  }
+
+}
 
 .logocentella {
   width: 200px;
   height: 200px;
 }
+
+
 
 .nav-list {
   background-color: rgb(126, 18, 227);
@@ -57,11 +77,26 @@ main {
   width: 100%;
   text-align: center;
   font-family: sans-serif;
+
   & .parrafoindex {
     font-size: 2rem;
   }
 
 }
+
+
+@media screen and (max-width:480px) {
+  .articuloindex {
+    width: 100vw;
+    height: 150px;
+    padding: 20px;
+  }
+
+  .articuloindex .parrafoindex {
+    font-size: .5rem;
+  }
+}
+
 
 
 .seccionservicios {
@@ -97,14 +132,37 @@ main {
       justify-content: center;
     }
   }
-
 }
+
+@media screen and (max-width:480px) {
+  .seccionservicios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 20px;
+    gap: 20px;
+    padding: 0px;
+    height: 1200px;
+  }
+
+  .seccionservicios .servicios-a {
+
+    width: 120px;
+    height: 50px;
+    font-size: .5rem;
+  }
+}
+
 .servicios-a:hover {
   background-color: #d7da23;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.676);
   transition: all 0.5s;
   font-size: 18px;
 }
+
+
+
 
 .seccionporfolio {
   width: 100%;
@@ -118,6 +176,13 @@ main {
   height: 68px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media screen and (max-width:480px) {
+  .titulopartener {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
 }
 
 .video {
@@ -147,9 +212,10 @@ main {
 }
 
 .card-parteners {
-  & a{
+  & a {
     padding-left: 50px;
   }
+
   & img {
     width: 300px;
     margin-top: 30px;
@@ -158,6 +224,17 @@ main {
     border-radius: 50%;
   }
 }
+
+@media screen and (max-width:480px) {
+  .patrocinados {
+    display: block;
+  }
+
+  .patrocinados img {
+    width: 200px;
+  }
+}
+
 
 .card-parteners img:hover {
   scale: 1.2;

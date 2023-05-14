@@ -22,10 +22,17 @@
     }
 }
 
-.logoclientes {
-    width: 300px;
-    height: 300px;
+@media screen and (max-width:480px) {
+.logoclientes{
+        width: 100px;
+        height: 100px;
+    }
+
+    .cardparteners .nombrecliente {
+        font-size: 1.5rem;
+    }
 }
+
 
 .containersecclientes {
     display: grid;
@@ -57,6 +64,29 @@
     }
 }
 
+
+@media screen and (max-width:480px){
+    .containersecclientes{
+        display: block;
+margin: 100px;
+    }
+    .containersecclientes .cardseccionpartener{
+        width: 200px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .containersecclientes .logoclientes{
+        width: 100px;
+        height: 100px;
+    }
+    .containersecclientes .btn-parteners{
+        font-size: 1rem;
+        padding: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.676);
+    }
+
+}
 .btn-parteners:hover{
     font-size: 35px;
     transition: all 1s;

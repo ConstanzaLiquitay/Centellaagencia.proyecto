@@ -28,6 +28,12 @@
   
 }
 
+@media screen and (max-width:480px){
+  .footer .all-column{
+    display: block;
+  }
+}
+
 .formulario {
   align-items: center;
   display: flex;
@@ -123,4 +129,9 @@ input {
   }
 }
 
+@media screen and (max-width:480px){
+  .derechos h5{
+    font-size: 1.5rem;
+  }
+}
 
